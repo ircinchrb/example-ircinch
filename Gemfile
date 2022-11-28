@@ -3,4 +3,4 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby File.read(".ruby-version").gsub("ruby-", "").strip
 
-gem "ircinch", github: "ircinchrb/ircinch"
+gem "ircinch"
